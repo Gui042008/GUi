@@ -10,5 +10,6 @@ print (chute)
 if (chute == sorteio):
     print("Parabens , voce  acertou numero era",sorteio)
 if (chute! = sorteio):
+    
     print ("voce errou",sorteio)
         
