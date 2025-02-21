@@ -11,11 +11,12 @@ while (limite_tentativas >= tentativas):
     chute = int( input (" Digite seu chute "))
     if (chute == sorteio):
         print("Parabens , voce  acertou numero era",sorteio)
+        break #Termina o jogo
     elif (chute > sorteio):
         print ("chute um numero menor")
     elif(chute < sorteio):
         print ("Chute  um numero maior")
-        
+         
 
     
 
